@@ -42,4 +42,8 @@ function quiz() {
       console.log("Incorrect!");
     }
   });
+
+  console.log(`Your final score is: ${score}/${questions.length}`);
 }
+
+quiz();
